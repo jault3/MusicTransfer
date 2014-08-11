@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		270F5BF619992C3800ABDEA7 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		27BF308619980EAB005F41D1 /* MusicTransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27BF308919980EAB005F41D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27BF308B19980EAB005F41D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -141,6 +142,7 @@
 				27BF30B819980EBB005F41D1 /* MusicTransferViewController.h */,
 				27BF30B919980EBB005F41D1 /* MusicTransferViewController.m */,
 				27BF30BA19980EBB005F41D1 /* MusicTransferViewController.xib */,
+				270F5BF619992C3800ABDEA7 /* Constants.h */,
 			);
 			path = MusicTransfer;
 			sourceTree = "<group>";

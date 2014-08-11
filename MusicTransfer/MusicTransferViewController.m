@@ -9,8 +9,11 @@
 #import "MusicTransferViewController.h"
 #import <AVFoundation/AVFoundation.h>
 #import "AFNetworking.h"
+#import "Constants.h"
 
 @interface MusicTransferViewController ()
+
+@property (strong, nonatomic) AFHTTPRequestOperationManager *httpClient;
 
 @end
 
@@ -49,9 +52,11 @@
     NSArray *songs = [mediaItemCollection items];
     songs = @[[songs objectAtIndex:0]];
     
-    AFHTTPRequestOperationManager *httpClient = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:[NSURL URLWithString:@"https://10.23.16.107:8443"]];
-    httpClient.responseSerializer = [AFHTTPResponseSerializer serializer];
-    [httpClient.operationQueue setMaxConcurrentOperationCount:1];
+    _httpClient = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:[NSURL URLWithString:kBaseUrl]];
+    _httpClient.responseSerializer = [AFHTTPResponseSerializer serializer];
+    [_httpClient.operationQueue setMaxConcurrentOperationCount:1];
+    [_httpClient.requestSerializer setValue:[NSString stringWithFormat:@"Bearer %@", kSessionToken] forHTTPHeaderField:@"Authorization"];
+    [_httpClient.requestSerializer setValue:kApiKey forHTTPHeaderField:@"X-Api-Key"];
     
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString * myDocumentsDirectory = ([paths count] > 0) ? [paths objectAtIndex:0] : nil;
@@ -96,8 +101,8 @@
                      
                      NSLog(@"data %@", data);
                      
-                     [self sendFileWithData:data];
-                     [self deleteFileWithName:[myDocumentsDirectory stringByAppendingPathComponent:fileName]];
+                     [self sendFileWithData:data fileName:fileName];
+                     [self deleteFileAtPath:[myDocumentsDirectory stringByAppendingPathComponent:fileName]];
                      
                      break;
                  }
@@ -132,15 +137,22 @@
     NSLog(@"%lu items", (unsigned long)songs.count);
 }
 
-- (void)sendFileWithData:(NSData *)data {
+- (void)sendFileWithData:(NSData *)data fileName:(NSString *)fileName {
     NSLog(@"sending file...");
+    [_httpClient POST:@"/v2/users/files" parameters:nil constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
+        [formData appendPartWithFileData:data name:fileName fileName:[NSString stringWithFormat:@"%@.mp3", fileName] mimeType:@"audio/mp3"];
+    } success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        NSLog(@"success: %@", responseObject);
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"failure: %@", error);
+    }];
 }
 
-- (void)deleteFileWithName:(NSString *)fileName {
+- (void)deleteFileAtPath:(NSString *)path {
     NSError *error = nil;
-    [[NSFileManager defaultManager] removeItemAtPath:fileName error:&error];
+    [[NSFileManager defaultManager] removeItemAtPath:path error:&error];
     if (error) {
-        NSLog(@"!!! !!! !!! error deleting file %@", fileName);
+        NSLog(@"!!! !!! !!! error deleting file at %@", path);
     }
 }
 
