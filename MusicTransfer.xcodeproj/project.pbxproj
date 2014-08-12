@@ -7,181 +7,155 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27703EE81999C5630019515B /* MusicTransferViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27703EEA1999C5630019515B /* MusicTransferViewController.xib */; };
-		27BF308A19980EAB005F41D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BF308919980EAB005F41D1 /* Foundation.framework */; };
-		27BF308C19980EAB005F41D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BF308B19980EAB005F41D1 /* CoreGraphics.framework */; };
-		27BF308E19980EAB005F41D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BF308D19980EAB005F41D1 /* UIKit.framework */; };
-		27BF309419980EAB005F41D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27BF309219980EAB005F41D1 /* InfoPlist.strings */; };
-		27BF309619980EAB005F41D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BF309519980EAB005F41D1 /* main.m */; };
-		27BF309A19980EAB005F41D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BF309919980EAB005F41D1 /* AppDelegate.m */; };
-		27BF309C19980EAB005F41D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27BF309B19980EAB005F41D1 /* Images.xcassets */; };
-		27BF30A319980EAB005F41D1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BF30A219980EAB005F41D1 /* XCTest.framework */; };
-		27BF30A419980EAB005F41D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BF308919980EAB005F41D1 /* Foundation.framework */; };
-		27BF30A519980EAB005F41D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BF308D19980EAB005F41D1 /* UIKit.framework */; };
-		27BF30AD19980EAB005F41D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27BF30AB19980EAB005F41D1 /* InfoPlist.strings */; };
-		27BF30AF19980EAB005F41D1 /* MusicTransferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BF30AE19980EAB005F41D1 /* MusicTransferTests.m */; };
-		27BF30BB19980EBB005F41D1 /* MusicTransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BF30B919980EBB005F41D1 /* MusicTransferViewController.m */; };
-		27BF30BE19980FAE005F41D1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BF30BD19980FAE005F41D1 /* AVFoundation.framework */; };
-		27BF30C019980FFC005F41D1 /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BF30BF19980FFC005F41D1 /* MediaToolbox.framework */; };
-		27BF30C219981079005F41D1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BF30C119981079005F41D1 /* MediaPlayer.framework */; };
-		27BF30C419991D3D005F41D1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BF30C319991D3D005F41D1 /* MobileCoreServices.framework */; };
-		A761DC0BD55E42EC85C9FFE4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1123324A06C4164A730AB66 /* libPods.a */; };
+		11947EA932F34D5F828BC0E9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62402FF30F9249DCA1D14071 /* libPods.a */; };
+		270F5C041999CD9200ABDEA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270F5C031999CD9200ABDEA7 /* Foundation.framework */; };
+		270F5C061999CD9200ABDEA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270F5C051999CD9200ABDEA7 /* CoreGraphics.framework */; };
+		270F5C081999CD9200ABDEA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270F5C071999CD9200ABDEA7 /* UIKit.framework */; };
+		270F5C0E1999CD9200ABDEA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 270F5C0C1999CD9200ABDEA7 /* InfoPlist.strings */; };
+		270F5C101999CD9200ABDEA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 270F5C0F1999CD9200ABDEA7 /* main.m */; };
+		270F5C141999CD9200ABDEA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 270F5C131999CD9200ABDEA7 /* AppDelegate.m */; };
+		270F5C161999CD9200ABDEA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270F5C151999CD9200ABDEA7 /* Images.xcassets */; };
+		270F5C1D1999CD9200ABDEA7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270F5C1C1999CD9200ABDEA7 /* XCTest.framework */; };
+		270F5C1E1999CD9200ABDEA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270F5C031999CD9200ABDEA7 /* Foundation.framework */; };
+		270F5C1F1999CD9200ABDEA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270F5C071999CD9200ABDEA7 /* UIKit.framework */; };
+		270F5C271999CD9200ABDEA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 270F5C251999CD9200ABDEA7 /* InfoPlist.strings */; };
+		270F5C291999CD9200ABDEA7 /* MusicTransferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 270F5C281999CD9200ABDEA7 /* MusicTransferTests.m */; };
+		270F5C351999CDB300ABDEA7 /* MusicTransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 270F5C331999CDB300ABDEA7 /* MusicTransferViewController.m */; };
+		270F5C391999D1A100ABDEA7 /* MusicTransferViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 270F5C381999D1A100ABDEA7 /* MusicTransferViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		27BF30A619980EAB005F41D1 /* PBXContainerItemProxy */ = {
+		270F5C201999CD9200ABDEA7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 27BF307E19980EAB005F41D1 /* Project object */;
+			containerPortal = 270F5BF81999CD9200ABDEA7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 27BF308519980EAB005F41D1;
+			remoteGlobalIDString = 270F5BFF1999CD9200ABDEA7;
 			remoteInfo = MusicTransfer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		270F5BF619992C3800ABDEA7 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		27703EE91999C5630019515B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MusicTransferViewController.xib; sourceTree = "<group>"; };
-		27BD9E0D19993A8B00B10EEF /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
-		27BD9E0E19993A8B00B10EEF /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
-		27BD9E1119993A9C00B10EEF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		27BD9E1C19993ADB00B10EEF /* libid3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libid3.a; path = "../libid3-ios/build/Debug-iphoneos/libid3.a"; sourceTree = "<group>"; };
-		27BD9E1E19993B2100B10EEF /* libid3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libid3.a; path = "libid3-ios/build/Debug-iphoneos/libid3.a"; sourceTree = "<group>"; };
-		27BF308619980EAB005F41D1 /* MusicTransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		27BF308919980EAB005F41D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		27BF308B19980EAB005F41D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		27BF308D19980EAB005F41D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		27BF309119980EAB005F41D1 /* MusicTransfer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicTransfer-Info.plist"; sourceTree = "<group>"; };
-		27BF309319980EAB005F41D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		27BF309519980EAB005F41D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		27BF309719980EAB005F41D1 /* MusicTransfer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicTransfer-Prefix.pch"; sourceTree = "<group>"; };
-		27BF309819980EAB005F41D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		27BF309919980EAB005F41D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		27BF309B19980EAB005F41D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		27BF30A119980EAB005F41D1 /* MusicTransferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicTransferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		27BF30A219980EAB005F41D1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		27BF30AA19980EAB005F41D1 /* MusicTransferTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicTransferTests-Info.plist"; sourceTree = "<group>"; };
-		27BF30AC19980EAB005F41D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		27BF30AE19980EAB005F41D1 /* MusicTransferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicTransferTests.m; sourceTree = "<group>"; };
-		27BF30B819980EBB005F41D1 /* MusicTransferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTransferViewController.h; sourceTree = "<group>"; };
-		27BF30B919980EBB005F41D1 /* MusicTransferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTransferViewController.m; sourceTree = "<group>"; };
-		27BF30BD19980FAE005F41D1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		27BF30BF19980FFC005F41D1 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
-		27BF30C119981079005F41D1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		27BF30C319991D3D005F41D1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		D1123324A06C4164A730AB66 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E04164C1FB874114A8980E76 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		270F5C001999CD9200ABDEA7 /* MusicTransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		270F5C031999CD9200ABDEA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		270F5C051999CD9200ABDEA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		270F5C071999CD9200ABDEA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		270F5C0B1999CD9200ABDEA7 /* MusicTransfer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicTransfer-Info.plist"; sourceTree = "<group>"; };
+		270F5C0D1999CD9200ABDEA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		270F5C0F1999CD9200ABDEA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		270F5C111999CD9200ABDEA7 /* MusicTransfer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicTransfer-Prefix.pch"; sourceTree = "<group>"; };
+		270F5C121999CD9200ABDEA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		270F5C131999CD9200ABDEA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		270F5C151999CD9200ABDEA7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		270F5C1B1999CD9200ABDEA7 /* MusicTransferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicTransferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		270F5C1C1999CD9200ABDEA7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		270F5C241999CD9200ABDEA7 /* MusicTransferTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicTransferTests-Info.plist"; sourceTree = "<group>"; };
+		270F5C261999CD9200ABDEA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		270F5C281999CD9200ABDEA7 /* MusicTransferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicTransferTests.m; sourceTree = "<group>"; };
+		270F5C321999CDB300ABDEA7 /* MusicTransferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTransferViewController.h; sourceTree = "<group>"; };
+		270F5C331999CDB300ABDEA7 /* MusicTransferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTransferViewController.m; sourceTree = "<group>"; };
+		270F5C371999CE3900ABDEA7 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		270F5C381999D1A100ABDEA7 /* MusicTransferViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicTransferViewController.xib; sourceTree = "<group>"; };
+		62402FF30F9249DCA1D14071 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F937DD2B95D643D5B0F6F99E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		27BF308319980EAB005F41D1 /* Frameworks */ = {
+		270F5BFD1999CD9200ABDEA7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27BF30C419991D3D005F41D1 /* MobileCoreServices.framework in Frameworks */,
-				27BF30C219981079005F41D1 /* MediaPlayer.framework in Frameworks */,
-				27BF30C019980FFC005F41D1 /* MediaToolbox.framework in Frameworks */,
-				27BF30BE19980FAE005F41D1 /* AVFoundation.framework in Frameworks */,
-				27BF308C19980EAB005F41D1 /* CoreGraphics.framework in Frameworks */,
-				27BF308E19980EAB005F41D1 /* UIKit.framework in Frameworks */,
-				27BF308A19980EAB005F41D1 /* Foundation.framework in Frameworks */,
-				A761DC0BD55E42EC85C9FFE4 /* libPods.a in Frameworks */,
+				270F5C061999CD9200ABDEA7 /* CoreGraphics.framework in Frameworks */,
+				270F5C081999CD9200ABDEA7 /* UIKit.framework in Frameworks */,
+				270F5C041999CD9200ABDEA7 /* Foundation.framework in Frameworks */,
+				11947EA932F34D5F828BC0E9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27BF309E19980EAB005F41D1 /* Frameworks */ = {
+		270F5C181999CD9200ABDEA7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27BF30A319980EAB005F41D1 /* XCTest.framework in Frameworks */,
-				27BF30A519980EAB005F41D1 /* UIKit.framework in Frameworks */,
-				27BF30A419980EAB005F41D1 /* Foundation.framework in Frameworks */,
+				270F5C1D1999CD9200ABDEA7 /* XCTest.framework in Frameworks */,
+				270F5C1F1999CD9200ABDEA7 /* UIKit.framework in Frameworks */,
+				270F5C1E1999CD9200ABDEA7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		27BF307D19980EAB005F41D1 = {
+		270F5BF71999CD9200ABDEA7 = {
 			isa = PBXGroup;
 			children = (
-				27BF308F19980EAB005F41D1 /* MusicTransfer */,
-				27BF30A819980EAB005F41D1 /* MusicTransferTests */,
-				27BF308819980EAB005F41D1 /* Frameworks */,
-				27BF308719980EAB005F41D1 /* Products */,
-				E04164C1FB874114A8980E76 /* Pods.xcconfig */,
+				270F5C091999CD9200ABDEA7 /* MusicTransfer */,
+				270F5C221999CD9200ABDEA7 /* MusicTransferTests */,
+				270F5C021999CD9200ABDEA7 /* Frameworks */,
+				270F5C011999CD9200ABDEA7 /* Products */,
+				F937DD2B95D643D5B0F6F99E /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
-		27BF308719980EAB005F41D1 /* Products */ = {
+		270F5C011999CD9200ABDEA7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				27BF308619980EAB005F41D1 /* MusicTransfer.app */,
-				27BF30A119980EAB005F41D1 /* MusicTransferTests.xctest */,
+				270F5C001999CD9200ABDEA7 /* MusicTransfer.app */,
+				270F5C1B1999CD9200ABDEA7 /* MusicTransferTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		27BF308819980EAB005F41D1 /* Frameworks */ = {
+		270F5C021999CD9200ABDEA7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				27BD9E1E19993B2100B10EEF /* libid3.a */,
-				27BD9E1C19993ADB00B10EEF /* libid3.a */,
-				27BD9E1119993A9C00B10EEF /* libz.dylib */,
-				27BD9E0D19993A8B00B10EEF /* libiconv.dylib */,
-				27BD9E0E19993A8B00B10EEF /* libstdc++.dylib */,
-				27BF30C319991D3D005F41D1 /* MobileCoreServices.framework */,
-				27BF30C119981079005F41D1 /* MediaPlayer.framework */,
-				27BF30BF19980FFC005F41D1 /* MediaToolbox.framework */,
-				27BF30BD19980FAE005F41D1 /* AVFoundation.framework */,
-				27BF308919980EAB005F41D1 /* Foundation.framework */,
-				27BF308B19980EAB005F41D1 /* CoreGraphics.framework */,
-				27BF308D19980EAB005F41D1 /* UIKit.framework */,
-				27BF30A219980EAB005F41D1 /* XCTest.framework */,
-				D1123324A06C4164A730AB66 /* libPods.a */,
+				270F5C031999CD9200ABDEA7 /* Foundation.framework */,
+				270F5C051999CD9200ABDEA7 /* CoreGraphics.framework */,
+				270F5C071999CD9200ABDEA7 /* UIKit.framework */,
+				270F5C1C1999CD9200ABDEA7 /* XCTest.framework */,
+				62402FF30F9249DCA1D14071 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		27BF308F19980EAB005F41D1 /* MusicTransfer */ = {
+		270F5C091999CD9200ABDEA7 /* MusicTransfer */ = {
 			isa = PBXGroup;
 			children = (
-				27BF309819980EAB005F41D1 /* AppDelegate.h */,
-				27BF309919980EAB005F41D1 /* AppDelegate.m */,
-				27BF309B19980EAB005F41D1 /* Images.xcassets */,
-				27BF309019980EAB005F41D1 /* Supporting Files */,
-				27BF30B819980EBB005F41D1 /* MusicTransferViewController.h */,
-				27BF30B919980EBB005F41D1 /* MusicTransferViewController.m */,
-				27703EEA1999C5630019515B /* MusicTransferViewController.xib */,
-				270F5BF619992C3800ABDEA7 /* Constants.h */,
+				270F5C121999CD9200ABDEA7 /* AppDelegate.h */,
+				270F5C131999CD9200ABDEA7 /* AppDelegate.m */,
+				270F5C151999CD9200ABDEA7 /* Images.xcassets */,
+				270F5C0A1999CD9200ABDEA7 /* Supporting Files */,
+				270F5C321999CDB300ABDEA7 /* MusicTransferViewController.h */,
+				270F5C331999CDB300ABDEA7 /* MusicTransferViewController.m */,
+				270F5C381999D1A100ABDEA7 /* MusicTransferViewController.xib */,
+				270F5C371999CE3900ABDEA7 /* Constants.h */,
 			);
 			path = MusicTransfer;
 			sourceTree = "<group>";
 		};
-		27BF309019980EAB005F41D1 /* Supporting Files */ = {
+		270F5C0A1999CD9200ABDEA7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				27BF309119980EAB005F41D1 /* MusicTransfer-Info.plist */,
-				27BF309219980EAB005F41D1 /* InfoPlist.strings */,
-				27BF309519980EAB005F41D1 /* main.m */,
-				27BF309719980EAB005F41D1 /* MusicTransfer-Prefix.pch */,
+				270F5C0B1999CD9200ABDEA7 /* MusicTransfer-Info.plist */,
+				270F5C0C1999CD9200ABDEA7 /* InfoPlist.strings */,
+				270F5C0F1999CD9200ABDEA7 /* main.m */,
+				270F5C111999CD9200ABDEA7 /* MusicTransfer-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		27BF30A819980EAB005F41D1 /* MusicTransferTests */ = {
+		270F5C221999CD9200ABDEA7 /* MusicTransferTests */ = {
 			isa = PBXGroup;
 			children = (
-				27BF30AE19980EAB005F41D1 /* MusicTransferTests.m */,
-				27BF30A919980EAB005F41D1 /* Supporting Files */,
+				270F5C281999CD9200ABDEA7 /* MusicTransferTests.m */,
+				270F5C231999CD9200ABDEA7 /* Supporting Files */,
 			);
 			path = MusicTransferTests;
 			sourceTree = "<group>";
 		};
-		27BF30A919980EAB005F41D1 /* Supporting Files */ = {
+		270F5C231999CD9200ABDEA7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				27BF30AA19980EAB005F41D1 /* MusicTransferTests-Info.plist */,
-				27BF30AB19980EAB005F41D1 /* InfoPlist.strings */,
+				270F5C241999CD9200ABDEA7 /* MusicTransferTests-Info.plist */,
+				270F5C251999CD9200ABDEA7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -189,15 +163,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		27BF308519980EAB005F41D1 /* MusicTransfer */ = {
+		270F5BFF1999CD9200ABDEA7 /* MusicTransfer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27BF30B219980EAB005F41D1 /* Build configuration list for PBXNativeTarget "MusicTransfer" */;
+			buildConfigurationList = 270F5C2C1999CD9200ABDEA7 /* Build configuration list for PBXNativeTarget "MusicTransfer" */;
 			buildPhases = (
-				8779C52233A840F68204AE8F /* Check Pods Manifest.lock */,
-				27BF308219980EAB005F41D1 /* Sources */,
-				27BF308319980EAB005F41D1 /* Frameworks */,
-				27BF308419980EAB005F41D1 /* Resources */,
-				ED411E0346444587A3493295 /* Copy Pods Resources */,
+				92DE58DD40ED44EEB6BC1C0F /* Check Pods Manifest.lock */,
+				270F5BFC1999CD9200ABDEA7 /* Sources */,
+				270F5BFD1999CD9200ABDEA7 /* Frameworks */,
+				270F5BFE1999CD9200ABDEA7 /* Resources */,
+				5526EC1AC41D47A0970614BF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,97 +179,82 @@
 			);
 			name = MusicTransfer;
 			productName = MusicTransfer;
-			productReference = 27BF308619980EAB005F41D1 /* MusicTransfer.app */;
+			productReference = 270F5C001999CD9200ABDEA7 /* MusicTransfer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		27BF30A019980EAB005F41D1 /* MusicTransferTests */ = {
+		270F5C1A1999CD9200ABDEA7 /* MusicTransferTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27BF30B519980EAB005F41D1 /* Build configuration list for PBXNativeTarget "MusicTransferTests" */;
+			buildConfigurationList = 270F5C2F1999CD9200ABDEA7 /* Build configuration list for PBXNativeTarget "MusicTransferTests" */;
 			buildPhases = (
-				27BF309D19980EAB005F41D1 /* Sources */,
-				27BF309E19980EAB005F41D1 /* Frameworks */,
-				27BF309F19980EAB005F41D1 /* Resources */,
+				270F5C171999CD9200ABDEA7 /* Sources */,
+				270F5C181999CD9200ABDEA7 /* Frameworks */,
+				270F5C191999CD9200ABDEA7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				27BF30A719980EAB005F41D1 /* PBXTargetDependency */,
+				270F5C211999CD9200ABDEA7 /* PBXTargetDependency */,
 			);
 			name = MusicTransferTests;
 			productName = MusicTransferTests;
-			productReference = 27BF30A119980EAB005F41D1 /* MusicTransferTests.xctest */;
+			productReference = 270F5C1B1999CD9200ABDEA7 /* MusicTransferTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		27BF307E19980EAB005F41D1 /* Project object */ = {
+		270F5BF81999CD9200ABDEA7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = ault.io;
 				TargetAttributes = {
-					27BF30A019980EAB005F41D1 = {
-						TestTargetID = 27BF308519980EAB005F41D1;
+					270F5C1A1999CD9200ABDEA7 = {
+						TestTargetID = 270F5BFF1999CD9200ABDEA7;
 					};
 				};
 			};
-			buildConfigurationList = 27BF308119980EAB005F41D1 /* Build configuration list for PBXProject "MusicTransfer" */;
+			buildConfigurationList = 270F5BFB1999CD9200ABDEA7 /* Build configuration list for PBXProject "MusicTransfer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 27BF307D19980EAB005F41D1;
-			productRefGroup = 27BF308719980EAB005F41D1 /* Products */;
+			mainGroup = 270F5BF71999CD9200ABDEA7;
+			productRefGroup = 270F5C011999CD9200ABDEA7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				27BF308519980EAB005F41D1 /* MusicTransfer */,
-				27BF30A019980EAB005F41D1 /* MusicTransferTests */,
+				270F5BFF1999CD9200ABDEA7 /* MusicTransfer */,
+				270F5C1A1999CD9200ABDEA7 /* MusicTransferTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		27BF308419980EAB005F41D1 /* Resources */ = {
+		270F5BFE1999CD9200ABDEA7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27BF309419980EAB005F41D1 /* InfoPlist.strings in Resources */,
-				27BF309C19980EAB005F41D1 /* Images.xcassets in Resources */,
-				27703EE81999C5630019515B /* MusicTransferViewController.xib in Resources */,
+				270F5C0E1999CD9200ABDEA7 /* InfoPlist.strings in Resources */,
+				270F5C161999CD9200ABDEA7 /* Images.xcassets in Resources */,
+				270F5C391999D1A100ABDEA7 /* MusicTransferViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27BF309F19980EAB005F41D1 /* Resources */ = {
+		270F5C191999CD9200ABDEA7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27BF30AD19980EAB005F41D1 /* InfoPlist.strings in Resources */,
+				270F5C271999CD9200ABDEA7 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8779C52233A840F68204AE8F /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		ED411E0346444587A3493295 /* Copy Pods Resources */ = {
+		5526EC1AC41D47A0970614BF /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -310,58 +269,65 @@
 			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		92DE58DD40ED44EEB6BC1C0F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		27BF308219980EAB005F41D1 /* Sources */ = {
+		270F5BFC1999CD9200ABDEA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27BF309A19980EAB005F41D1 /* AppDelegate.m in Sources */,
-				27BF30BB19980EBB005F41D1 /* MusicTransferViewController.m in Sources */,
-				27BF309619980EAB005F41D1 /* main.m in Sources */,
+				270F5C141999CD9200ABDEA7 /* AppDelegate.m in Sources */,
+				270F5C351999CDB300ABDEA7 /* MusicTransferViewController.m in Sources */,
+				270F5C101999CD9200ABDEA7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27BF309D19980EAB005F41D1 /* Sources */ = {
+		270F5C171999CD9200ABDEA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27BF30AF19980EAB005F41D1 /* MusicTransferTests.m in Sources */,
+				270F5C291999CD9200ABDEA7 /* MusicTransferTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		27BF30A719980EAB005F41D1 /* PBXTargetDependency */ = {
+		270F5C211999CD9200ABDEA7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 27BF308519980EAB005F41D1 /* MusicTransfer */;
-			targetProxy = 27BF30A619980EAB005F41D1 /* PBXContainerItemProxy */;
+			target = 270F5BFF1999CD9200ABDEA7 /* MusicTransfer */;
+			targetProxy = 270F5C201999CD9200ABDEA7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		27703EEA1999C5630019515B /* MusicTransferViewController.xib */ = {
+		270F5C0C1999CD9200ABDEA7 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				27703EE91999C5630019515B /* en */,
-			);
-			name = MusicTransferViewController.xib;
-			sourceTree = "<group>";
-		};
-		27BF309219980EAB005F41D1 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				27BF309319980EAB005F41D1 /* en */,
+				270F5C0D1999CD9200ABDEA7 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		27BF30AB19980EAB005F41D1 /* InfoPlist.strings */ = {
+		270F5C251999CD9200ABDEA7 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				27BF30AC19980EAB005F41D1 /* en */,
+				270F5C261999CD9200ABDEA7 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -369,7 +335,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		27BF30B019980EAB005F41D1 /* Debug */ = {
+		270F5C2A1999CD9200ABDEA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -402,13 +368,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		27BF30B119980EAB005F41D1 /* Release */ = {
+		270F5C2B1999CD9200ABDEA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -435,43 +400,40 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LIBRARY_SEARCH_PATHS = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		27BF30B319980EAB005F41D1 /* Debug */ = {
+		270F5C2D1999CD9200ABDEA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E04164C1FB874114A8980E76 /* Pods.xcconfig */;
+			baseConfigurationReference = F937DD2B95D643D5B0F6F99E /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicTransfer/MusicTransfer-Prefix.pch";
 				INFOPLIST_FILE = "MusicTransfer/MusicTransfer-Info.plist";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		27BF30B419980EAB005F41D1 /* Release */ = {
+		270F5C2E1999CD9200ABDEA7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E04164C1FB874114A8980E76 /* Pods.xcconfig */;
+			baseConfigurationReference = F937DD2B95D643D5B0F6F99E /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicTransfer/MusicTransfer-Prefix.pch";
 				INFOPLIST_FILE = "MusicTransfer/MusicTransfer-Info.plist";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		27BF30B619980EAB005F41D1 /* Debug */ = {
+		270F5C301999CD9200ABDEA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MusicTransfer.app/MusicTransfer";
@@ -493,7 +455,7 @@
 			};
 			name = Debug;
 		};
-		27BF30B719980EAB005F41D1 /* Release */ = {
+		270F5C311999CD9200ABDEA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MusicTransfer.app/MusicTransfer";
@@ -514,34 +476,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		27BF308119980EAB005F41D1 /* Build configuration list for PBXProject "MusicTransfer" */ = {
+		270F5BFB1999CD9200ABDEA7 /* Build configuration list for PBXProject "MusicTransfer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				27BF30B019980EAB005F41D1 /* Debug */,
-				27BF30B119980EAB005F41D1 /* Release */,
+				270F5C2A1999CD9200ABDEA7 /* Debug */,
+				270F5C2B1999CD9200ABDEA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		27BF30B219980EAB005F41D1 /* Build configuration list for PBXNativeTarget "MusicTransfer" */ = {
+		270F5C2C1999CD9200ABDEA7 /* Build configuration list for PBXNativeTarget "MusicTransfer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				27BF30B319980EAB005F41D1 /* Debug */,
-				27BF30B419980EAB005F41D1 /* Release */,
+				270F5C2D1999CD9200ABDEA7 /* Debug */,
+				270F5C2E1999CD9200ABDEA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		27BF30B519980EAB005F41D1 /* Build configuration list for PBXNativeTarget "MusicTransferTests" */ = {
+		270F5C2F1999CD9200ABDEA7 /* Build configuration list for PBXNativeTarget "MusicTransferTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				27BF30B619980EAB005F41D1 /* Debug */,
-				27BF30B719980EAB005F41D1 /* Release */,
+				270F5C301999CD9200ABDEA7 /* Debug */,
+				270F5C311999CD9200ABDEA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 27BF307E19980EAB005F41D1 /* Project object */;
+	rootObject = 270F5BF81999CD9200ABDEA7 /* Project object */;
 }
