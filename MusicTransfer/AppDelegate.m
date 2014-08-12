@@ -17,7 +17,7 @@
     
     _musicTransferViewController = [[MusicTransferViewController alloc] initWithNibName:nil bundle:nil];
     
-    self.window.rootViewController = _musicTransferViewController;
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:_musicTransferViewController];
     // Override point for customization after application launch.
     
     [[AFNetworkActivityLogger sharedLogger] startLogging];

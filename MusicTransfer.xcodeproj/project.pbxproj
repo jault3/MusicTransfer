@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27703EE81999C5630019515B /* MusicTransferViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27703EEA1999C5630019515B /* MusicTransferViewController.xib */; };
 		27BF308A19980EAB005F41D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BF308919980EAB005F41D1 /* Foundation.framework */; };
 		27BF308C19980EAB005F41D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BF308B19980EAB005F41D1 /* CoreGraphics.framework */; };
 		27BF308E19980EAB005F41D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BF308D19980EAB005F41D1 /* UIKit.framework */; };
@@ -20,7 +21,6 @@
 		27BF30AD19980EAB005F41D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27BF30AB19980EAB005F41D1 /* InfoPlist.strings */; };
 		27BF30AF19980EAB005F41D1 /* MusicTransferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BF30AE19980EAB005F41D1 /* MusicTransferTests.m */; };
 		27BF30BB19980EBB005F41D1 /* MusicTransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BF30B919980EBB005F41D1 /* MusicTransferViewController.m */; };
-		27BF30BC19980EBB005F41D1 /* MusicTransferViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27BF30BA19980EBB005F41D1 /* MusicTransferViewController.xib */; };
 		27BF30BE19980FAE005F41D1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BF30BD19980FAE005F41D1 /* AVFoundation.framework */; };
 		27BF30C019980FFC005F41D1 /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BF30BF19980FFC005F41D1 /* MediaToolbox.framework */; };
 		27BF30C219981079005F41D1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BF30C119981079005F41D1 /* MediaPlayer.framework */; };
@@ -40,6 +40,12 @@
 
 /* Begin PBXFileReference section */
 		270F5BF619992C3800ABDEA7 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		27703EE91999C5630019515B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MusicTransferViewController.xib; sourceTree = "<group>"; };
+		27BD9E0D19993A8B00B10EEF /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		27BD9E0E19993A8B00B10EEF /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		27BD9E1119993A9C00B10EEF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		27BD9E1C19993ADB00B10EEF /* libid3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libid3.a; path = "../libid3-ios/build/Debug-iphoneos/libid3.a"; sourceTree = "<group>"; };
+		27BD9E1E19993B2100B10EEF /* libid3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libid3.a; path = "libid3-ios/build/Debug-iphoneos/libid3.a"; sourceTree = "<group>"; };
 		27BF308619980EAB005F41D1 /* MusicTransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27BF308919980EAB005F41D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27BF308B19980EAB005F41D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,7 +64,6 @@
 		27BF30AE19980EAB005F41D1 /* MusicTransferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicTransferTests.m; sourceTree = "<group>"; };
 		27BF30B819980EBB005F41D1 /* MusicTransferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTransferViewController.h; sourceTree = "<group>"; };
 		27BF30B919980EBB005F41D1 /* MusicTransferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTransferViewController.m; sourceTree = "<group>"; };
-		27BF30BA19980EBB005F41D1 /* MusicTransferViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicTransferViewController.xib; sourceTree = "<group>"; };
 		27BF30BD19980FAE005F41D1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		27BF30BF19980FFC005F41D1 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
 		27BF30C119981079005F41D1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
@@ -119,6 +124,11 @@
 		27BF308819980EAB005F41D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				27BD9E1E19993B2100B10EEF /* libid3.a */,
+				27BD9E1C19993ADB00B10EEF /* libid3.a */,
+				27BD9E1119993A9C00B10EEF /* libz.dylib */,
+				27BD9E0D19993A8B00B10EEF /* libiconv.dylib */,
+				27BD9E0E19993A8B00B10EEF /* libstdc++.dylib */,
 				27BF30C319991D3D005F41D1 /* MobileCoreServices.framework */,
 				27BF30C119981079005F41D1 /* MediaPlayer.framework */,
 				27BF30BF19980FFC005F41D1 /* MediaToolbox.framework */,
@@ -141,7 +151,7 @@
 				27BF309019980EAB005F41D1 /* Supporting Files */,
 				27BF30B819980EBB005F41D1 /* MusicTransferViewController.h */,
 				27BF30B919980EBB005F41D1 /* MusicTransferViewController.m */,
-				27BF30BA19980EBB005F41D1 /* MusicTransferViewController.xib */,
+				27703EEA1999C5630019515B /* MusicTransferViewController.xib */,
 				270F5BF619992C3800ABDEA7 /* Constants.h */,
 			);
 			path = MusicTransfer;
@@ -255,7 +265,7 @@
 			files = (
 				27BF309419980EAB005F41D1 /* InfoPlist.strings in Resources */,
 				27BF309C19980EAB005F41D1 /* Images.xcassets in Resources */,
-				27BF30BC19980EBB005F41D1 /* MusicTransferViewController.xib in Resources */,
+				27703EE81999C5630019515B /* MusicTransferViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +342,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		27703EEA1999C5630019515B /* MusicTransferViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27703EE91999C5630019515B /* en */,
+			);
+			name = MusicTransferViewController.xib;
+			sourceTree = "<group>";
+		};
 		27BF309219980EAB005F41D1 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -384,6 +402,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -416,6 +435,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -430,6 +450,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicTransfer/MusicTransfer-Prefix.pch";
 				INFOPLIST_FILE = "MusicTransfer/MusicTransfer-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -444,6 +465,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicTransfer/MusicTransfer-Prefix.pch";
 				INFOPLIST_FILE = "MusicTransfer/MusicTransfer-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
